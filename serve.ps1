@@ -37,6 +37,8 @@ while ($listener.IsListening) {
                 ".gif"  { "image/gif" }
                 ".svg"  { "image/svg+xml" }
                 ".json" { "application/json" }
+                ".pdf"  { "application/pdf" }
+                ".ico"  { "image/x-icon" }
                 default { "application/octet-stream" }
             }
             

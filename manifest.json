@@ -1,0 +1,9 @@
+{
+  "name": "EduVerse India",
+  "short_name": "EduVerse",
+  "description": "India's most comprehensive free educational portal for Classes 1–12, JEE, NEET & Olympiads",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0F4C81",
+  "theme_color": "#0F4C81"
+}
