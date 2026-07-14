@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us – EduVerse India | Educational Portal</title>
+  <meta name="description" content="Contact EduVerse India for queries, feedback, content suggestions, or collaboration. We're here to help every student in India.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://eduverse-india.in/contact.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    .contact-form-group { margin-bottom: 1.25rem; }
+    .contact-form-group label { font-weight: 600; font-size: 0.875rem; margin-bottom: 0.5rem; display: block; color: var(--text-primary); }
+    .contact-input { width: 100%; padding: 0.75rem 1rem; border: 2px solid var(--border-color); border-radius: var(--border-radius-sm); font-size: 0.9rem; color: var(--text-primary); background: var(--bg-card); outline: none; transition: border-color var(--transition-fast), box-shadow var(--transition-fast); font-family: var(--font-primary); }
+    .contact-input:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(15,76,129,0.1); }
+    .contact-input::placeholder { color: var(--text-muted); }
+    textarea.contact-input { resize: vertical; min-height: 140px; }
+    select.contact-input { cursor: pointer; }
+    .info-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--border-radius); padding: 1.5rem; margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 1.25rem; transition: all var(--transition-base); }
+    .info-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+    .info-icon { width: 50px; height: 50px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; flex-shrink: 0; }
+    [data-theme="dark"] .contact-input { background: var(--bg-secondary); }
+  </style>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to Main Content</a>
+  <div class="reading-progress" id="readingProgress"></div>
+  <div class="page-loader" id="pageLoader"><div class="loader-logo"><i class="fas fa-graduation-cap"></i></div><div class="loader-text">EduVerse India</div><div class="loader-bar"><div class="loader-bar-fill"></div></div></div>
+
+  <div class="top-bar d-none d-md-block">
+    <div class="container"><div class="d-flex align-items-center justify-content-between gap-3">
+      <span><i class="fas fa-phone-alt me-1" style="color:var(--secondary-light)"></i> KVS Helpline: 1800-180-3333</span>
+      <div class="top-bar-ticker"><span class="ticker-text">🔔 CBSE Board 2026 Date Sheet Released &nbsp;|&nbsp; 📢 JEE Main 2025 Registration Open &nbsp;|&nbsp; ✅ NEET 2025 Notification Published</span></div>
+      <span><a href="https://cbse.gov.in" target="_blank" rel="noopener" style="color:var(--secondary-light)">CBSE</a> | <a href="https://ncert.nic.in" target="_blank" rel="noopener" style="color:var(--secondary-light)">NCERT</a></span>
+    </div></div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg main-navbar" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><div class="brand-logo">E</div><div class="brand-text"><span class="brand-name">EduVerse India</span><span class="brand-tagline">Learn · Grow · Excel</span></div></a>
+      <div class="d-flex align-items-center gap-2 d-lg-none"><button class="dark-toggle" data-theme-toggle><i class="fas fa-moon theme-icon"></i></button><button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" style="color:white;font-size:1.25rem;"><i class="fas fa-bars"></i></button></div>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mx-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="classes.html">Classes</a></li>
+          <li class="nav-item"><a class="nav-link" href="jee.html">JEE</a></li>
+          <li class="nav-item"><a class="nav-link" href="neet.html">NEET</a></li>
+          <li class="nav-item"><a class="nav-link" href="olympiads.html">Olympiads</a></li>
+          <li class="nav-item"><a class="nav-link" href="downloads.html">Downloads</a></li>
+          <li class="nav-item"><a class="nav-link" href="useful-links.html">Useful Links</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+        <div class="d-none d-lg-flex align-items-center gap-2"><button class="dark-toggle" data-theme-toggle><i class="fas fa-moon theme-icon"></i><span class="theme-text">Dark Mode</span></button><button class="btn-primary-custom btn-sm-custom" data-search-open><i class="fas fa-search"></i> Search</button></div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="edu-breadcrumb"><div class="container"><nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="index.html">Home</a></li><li class="breadcrumb-item active" aria-current="page">Contact</li></ol></nav></div></div>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container page-hero-content">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <span class="hero-badge"><i class="fas fa-envelope me-2"></i> Get in Touch</span>
+            <h1 class="mb-3 mt-3">Contact <span style="color:var(--secondary);">EduVerse India</span></h1>
+            <p class="lead">Have a question, feedback, or suggestion? We'd love to hear from students, teachers, and parents. We typically respond within 24–48 hours.</p>
+          </div>
+          <div class="col-lg-5 d-none d-lg-block text-center"><div style="font-size:7rem;" aria-hidden="true">📬</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-py">
+      <div class="container">
+        <div class="row g-5">
+          <!-- Contact Form -->
+          <div class="col-lg-7 reveal-left">
+            <div class="edu-card" style="padding:2rem;">
+              <h2 style="font-size:1.5rem;font-weight:800;margin-bottom:0.5rem;">Send Us a Message</h2>
+              <p style="color:var(--text-muted);font-size:0.875rem;margin-bottom:1.75rem;">Fill in the form below and we'll get back to you as soon as possible.</p>
+
+              <form id="contactForm" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <div class="contact-form-group">
+                      <label for="contactName">Full Name *</label>
+                      <input type="text" id="contactName" class="contact-input" placeholder="Your full name" required autocomplete="name">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="contact-form-group">
+                      <label for="contactEmail">Email Address *</label>
+                      <input type="email" id="contactEmail" class="contact-input" placeholder="your@email.com" required autocomplete="email">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="contact-form-group">
+                      <label for="contactPhone">Phone Number</label>
+                      <input type="tel" id="contactPhone" class="contact-input" placeholder="+91 98765 43210" autocomplete="tel">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="contact-form-group">
+                      <label for="contactRole">I am a *</label>
+                      <select id="contactRole" class="contact-input" required>
+                        <option value="" disabled selected>Select your role</option>
+                        <option>Student – Class 1 to 8</option>
+                        <option>Student – Class 9 to 10</option>
+                        <option>Student – Class 11 to 12</option>
+                        <option>JEE / NEET Aspirant</option>
+                        <option>Olympiad Student</option>
+                        <option>Teacher / Educator</option>
+                        <option>Parent / Guardian</option>
+                        <option>Other</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="contact-form-group">
+                      <label for="contactSubject">Subject / Topic *</label>
+                      <select id="contactSubject" class="contact-input" required>
+                        <option value="" disabled selected>What is your message about?</option>
+                        <option>General Inquiry</option>
+                        <option>Request New Study Material</option>
+                        <option>Report Incorrect Content</option>
+                        <option>Submit Study Material</option>
+                        <option>Feedback on Website</option>
+                        <option>Technical Issue / Bug Report</option>
+                        <option>Partnership / Collaboration</option>
+                        <option>Media / Press Inquiry</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="contact-form-group">
+                      <label for="contactMessage">Your Message *</label>
+                      <textarea id="contactMessage" class="contact-input" placeholder="Write your message here... Be as detailed as possible so we can help you better." required></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                      <input type="checkbox" id="contactConsent" class="form-check-input" required style="width:18px;height:18px;cursor:pointer;">
+                      <label for="contactConsent" style="font-size:0.82rem;color:var(--text-muted);cursor:pointer;">I agree to EduVerse India's <a href="#">Privacy Policy</a> and consent to being contacted regarding my query.</label>
+                    </div>
+                    <button type="submit" class="btn-primary-custom w-100 justify-content-center" id="contactSubmitBtn" style="padding:0.8rem;" aria-label="Send message">
+                      <i class="fas fa-paper-plane me-2"></i> Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="col-lg-5 reveal-right">
+            <h2 style="font-size:1.4rem;font-weight:800;margin-bottom:1.5rem;">Contact Information</h2>
+
+            <div class="info-card">
+              <div class="info-icon bg-blue-light"><i class="fas fa-envelope color-blue"></i></div>
+              <div>
+                <h6 style="font-weight:700;margin-bottom:0.25rem;">Email Us</h6>
+                <a href="mailto:help@eduverse-india.in" style="color:var(--primary);font-size:0.9rem;">help@eduverse-india.in</a>
+                <p style="font-size:0.8rem;color:var(--text-muted);margin:0.25rem 0 0;">Response time: 24–48 hours</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon bg-green-light"><i class="fas fa-phone-alt color-green"></i></div>
+              <div>
+                <h6 style="font-weight:700;margin-bottom:0.25rem;">Call Us</h6>
+                <a href="tel:18001803333" style="color:var(--primary);font-size:0.9rem;">1800-180-3333 (Toll Free)</a>
+                <p style="font-size:0.8rem;color:var(--text-muted);margin:0.25rem 0 0;">Mon–Sat: 9:00 AM – 6:00 PM IST</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon bg-orange-light"><i class="fab fa-telegram-plane color-orange"></i></div>
+              <div>
+                <h6 style="font-weight:700;margin-bottom:0.25rem;">Telegram Community</h6>
+                <a href="#" style="color:var(--primary);font-size:0.9rem;">t.me/EduVerseIndia</a>
+                <p style="font-size:0.8rem;color:var(--text-muted);margin:0.25rem 0 0;">50,000+ active students</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon bg-red-light"><i class="fab fa-whatsapp color-red"></i></div>
+              <div>
+                <h6 style="font-weight:700;margin-bottom:0.25rem;">WhatsApp Group</h6>
+                <a href="#" style="color:var(--primary);font-size:0.9rem;">Join EduVerse WhatsApp</a>
+                <p style="font-size:0.8rem;color:var(--text-muted);margin:0.25rem 0 0;">Daily updates and resources</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon bg-purple-light"><i class="fab fa-youtube color-purple"></i></div>
+              <div>
+                <h6 style="font-weight:700;margin-bottom:0.25rem;">YouTube Channel</h6>
+                <a href="#" style="color:var(--primary);font-size:0.9rem;">youtube.com/EduVerseIndia</a>
+                <p style="font-size:0.8rem;color:var(--text-muted);margin:0.25rem 0 0;">Video explanations & lectures</p>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="edu-card mt-4" style="background:linear-gradient(135deg,var(--primary),var(--primary-light));border:none;color:white;">
+              <h5 style="color:white;font-weight:700;margin-bottom:1rem;">Follow EduVerse India</h5>
+              <div class="d-flex gap-3 flex-wrap">
+                <a href="#" class="social-link" style="background:rgba(255,255,255,0.15);border-color:rgba(255,255,255,0.2);" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link" style="background:rgba(255,255,255,0.15);border-color:rgba(255,255,255,0.2);" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link" style="background:rgba(255,255,255,0.15);border-color:rgba(255,255,255,0.2);" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link" style="background:rgba(255,255,255,0.15);border-color:rgba(255,255,255,0.2);" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-link" style="background:rgba(255,255,255,0.15);border-color:rgba(255,255,255,0.2);" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="mt-5 reveal">
+          <div class="section-header mb-4">
+            <span class="section-tag"><i class="fas fa-question-circle"></i> FAQ</span>
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="section-divider"></div>
+          </div>
+          <div class="row g-3">
+            <div class="col-lg-6">
+              <div class="edu-accordion accordion" id="faqAccordion">
+                <div class="accordion-item">
+                  <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">Is EduVerse India completely free?</button></h3>
+                  <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">Yes! EduVerse India is 100% free. All study materials, downloads, notes, PYQs, and features are available at no cost. We do not charge any subscription or membership fees.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">Can I contribute or submit study materials?</button></h3>
+                  <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">Absolutely! We welcome contributions from teachers, educators, and students. Email your materials to help@eduverse-india.in with subject "Content Submission". Our team reviews and publishes quality submissions with credit given to the contributor.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">How often is the content updated?</button></h3>
+                  <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">We update our content regularly — typically within days of any CBSE or NCERT changes. New sample papers, PYQs, and resources are added every week. Check our 'Latest Updates' section on the homepage for recent additions.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="edu-accordion accordion" id="faqAccordion2">
+                <div class="accordion-item">
+                  <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">Can I use EduVerse resources offline?</button></h3>
+                  <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion2">
+                    <div class="accordion-body">Yes! You can download any PDF resources for offline use. Additionally, EduVerse India is a Progressive Web App (PWA) — you can install it on your device from your browser and use basic features without internet.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">Is the content aligned with the latest NCERT syllabus?</button></h3>
+                  <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion2">
+                    <div class="accordion-body">Yes, all content is strictly aligned with the latest NCERT textbooks and CBSE curriculum, including the revised books for 2025–26 incorporating NEP 2020 changes. Any syllabus changes are incorporated promptly.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">How do I report an error in the content?</button></h3>
+                  <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion2">
+                    <div class="accordion-body">Please use this contact form with the subject "Report Incorrect Content". Include the page name, topic, and description of the error. We will review and correct it within 48 hours. Your contribution helps improve quality for all students!</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4"><a href="index.html" class="navbar-brand mb-3 d-inline-flex"><div class="brand-logo me-2">E</div><div class="brand-text"><span class="brand-name">EduVerse India</span><span class="brand-tagline">Learn · Grow · Excel</span></div></a><p class="footer-desc">India's most comprehensive free educational portal.</p><div class="social-links"><a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a><a href="#" class="social-link"><i class="fab fa-twitter"></i></a><a href="#" class="social-link"><i class="fab fa-youtube"></i></a><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></div></div>
+        <div class="col-6 col-md-3 col-lg-2"><h3 class="footer-heading">Classes</h3><ul class="footer-links"><li><a href="classes/class-10.html"><i class="fas fa-chevron-right"></i>Class 10</a></li><li><a href="classes/class-12.html"><i class="fas fa-chevron-right"></i>Class 12</a></li><li><a href="board-papers.html"><i class="fas fa-chevron-right"></i>Board Papers</a></li></ul></div>
+        <div class="col-6 col-md-3 col-lg-2"><h3 class="footer-heading">Exams</h3><ul class="footer-links"><li><a href="jee.html"><i class="fas fa-chevron-right"></i>JEE</a></li><li><a href="neet.html"><i class="fas fa-chevron-right"></i>NEET</a></li><li><a href="olympiads.html"><i class="fas fa-chevron-right"></i>Olympiads</a></li></ul></div>
+        <div class="col-6 col-md-3 col-lg-2"><h3 class="footer-heading">Resources</h3><ul class="footer-links"><li><a href="downloads.html"><i class="fas fa-chevron-right"></i>Downloads</a></li><li><a href="infographics.html"><i class="fas fa-chevron-right"></i>Infographics</a></li></ul></div>
+        <div class="col-md-6 col-lg-2"><h3 class="footer-heading">Company</h3><ul class="footer-links"><li><a href="about.html"><i class="fas fa-chevron-right"></i>About</a></li><li><a href="contact.html"><i class="fas fa-chevron-right"></i>Contact</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>© 2025 EduVerse India. All rights reserved.</p><div class="footer-bottom-links"><a href="#">Privacy</a><a href="#">Terms</a></div></div>
+    </div>
+  </footer>
+
+  <div class="search-overlay" id="searchOverlay"><div class="search-box"><div class="search-input-wrapper"><i class="fas fa-search"></i><input type="search" id="searchInput" placeholder="Search resources..." autocomplete="off"><button data-search-close style="background:none;border:none;color:var(--text-muted);cursor:pointer;font-size:1.2rem;"><i class="fas fa-times"></i></button></div><div class="search-results" id="searchResults"><div class="search-result-item text-muted small p-4 text-center">Start typing to search...</div></div></div></div>
+  <button class="scroll-to-top" id="scrollToTop"><i class="fas fa-arrow-up"></i></button>
+  <div class="cookie-banner" id="cookieBanner"><div style="flex:1;font-size:0.85rem;color:var(--text-secondary);"><strong><i class="fas fa-cookie-bite me-2" style="color:var(--secondary);"></i>Cookies Notice:</strong> We use cookies for a better experience.</div><button id="acceptCookies" class="btn-primary-custom btn-sm-custom">Got it!</button></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Contact Form Handler
+    document.getElementById('contactForm')?.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const btn = document.getElementById('contactSubmitBtn');
+      btn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Sending...';
+      btn.disabled = true;
+      setTimeout(() => {
+        btn.innerHTML = '<i class="fas fa-check me-2"></i>Message Sent! We\'ll respond within 24–48 hours.';
+        btn.style.background = 'linear-gradient(135deg,var(--accent),var(--accent-dark))';
+        this.reset();
+        window.EduVerse?.showToast('Message sent successfully! We\'ll get back to you soon.', 'success');
+      }, 1500);
+    });
+  </script>
+</body>
+</html>
