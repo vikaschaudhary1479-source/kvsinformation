@@ -238,8 +238,11 @@
               </div>
             </div>
           </div>
-        `;
       }).join('');
+
+      if (window.EduVerse && typeof window.EduVerse.initReveal === 'function') {
+        window.EduVerse.initReveal();
+      }
     }
 
     function applyFilters() {
